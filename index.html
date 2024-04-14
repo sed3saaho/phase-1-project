@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="style.css">
+
+  <title>Brewery Search</title>
+  
+</head>
+<body>
+  <h1 id = "title">Welcome to Brewery Search app</h1>
+  <input type="text" id="searchInput" placeholder="Enter a brewery name">
+  <div id="breweryList"></div>
+  <div id="breweryDetails"></div>
+  <div id="breweryDetails2"></div>
+</div>
+<h1 id = "title">User Profile Interaction</h1>
+
+<label for="usernameInput" id="nameLabel">Username:</label>
+<input type="text" id="usernameInput"><br><br>
+
+<label for="passwordInput" id="nameLabel">Password:</label>
+<input type="password" id="passwordInput"><br><br>
+
+<button id="saveProfileButton" id="nameLabel">Save Profile</button><br><br>
+
+<div id="messageArea"></div>
+
+        <div id="message"></div>
+    </div>
+<h1 id = "title">Comment Box</h1>
+<div class="comment-box">
+    <form id="commentForm" onsubmit="submitComment(event)">
+        <label for="nameInput"  id="nameLabel">Name:</label><br>
+        <input type="text" id="nameInput" required><br><br>
+        <label for="breweryInput" id="nameLabel">Brewery:</label><br>
+        <input type="text" id="breweryInput" required><br><br>
+        <label for="ratingInput"  id="nameLabel">Rating (1-5):</label><br>
+        <input type="number" id="ratingInput" min="1" max="5" required><br><br>
+        <label for="commentInput" id="nameLabel">Comment:</label><br>
+        <textarea id="commentInput" rows="4" cols="50" required></textarea><br><br>
+        <button type="submit" id="nameLabel">Submit</button>
+    </form>
+    <div id="comments"></div>
+</div>>
+<div id="userProfile"></div>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

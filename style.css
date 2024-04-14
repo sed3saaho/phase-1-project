@@ -1,0 +1,196 @@
+/* Reset default margin and padding */
+/* Set the background image */
+body {
+  background-image: url('https://media.istockphoto.com/id/1475669498/video/the-quality-of-the-alcohol-production-process-is-scrutinized-by-the-winemaker.jpg?s=640x640&k=20&c=EOGKvFv_7ucRfT4NeMmndFxAKfp2NL1AtJWU-wxSRh4='); /* Replace 'your-background-image.jpg' with the path to your image */
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+#breweryList {
+  background-color: lightblue; /* White background for brewery list */
+  padding: 20px;
+  margin: 20px; /* Adjust margin as needed */
+  border-radius: 5px; /* Add some border radius for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+#title {
+  background-color: greenyellow; /* White background for brewery list */
+  padding: 20px;
+  margin: 20px; /* Adjust margin as needed */
+  border-radius: 5px; /* Add some border radius for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+#message {
+
+
+  background-color: lightgreen; /* White background for brewery list */
+  padding: 20px;
+  margin: 20px; /* Adjust margin as needed */
+  border-radius: 5px; /* Add some border radius for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+
+}
+
+#breweryDetails {
+  background-color: mediumseagreen; /* White background for brewery list */
+  padding: 20px;
+  margin: 20px; /* Adjust margin as needed */
+  border-radius: 5px; /* Add some border radius for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+#breweryDetails2 { 
+  background-color: pink; /* White background for brewery list */
+  padding: 20px;
+  margin: 20px; /* Adjust margin as needed */
+  border-radius: 5px; /* Add some border radius for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+#nameLabel {
+
+  background-color: violet; /* White background for brewery list */
+  padding: 20px;
+  margin: 20px; /* Adjust margin as needed */
+  border-radius: 5px; /* Add some border radius for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+}#comments {
+  background-color: yellow; /* White background for brewery list */
+  padding: 20px;
+  margin: 20px; /* Adjust margin as needed */
+  border-radius: 5px; /* Add some border radius for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+
+
+  
+
+/* Overlay to make the content more readable */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+* White overlay for the content area */
+.content-overlay {
+  background-color: rgba(255, 255, 255, 0.8); /* White overlay with opacity */
+  position: absolute;
+  top: 50px; /* Adjust as needed based on your header height */
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Content container */
+.content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the overlays */
+  color: #333; /* Adjust text color as needed */
+}
+
+/* Content container */
+.content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the overlay */
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Search input styles */
+#searchInput {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+/* Brewery list styles */
+#breweryList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Brewery card styles */
+.brewery-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.brewery-card h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.brewery-card p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Brewery details styles */
+.brewery-details {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Social sharing buttons styles */
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-buttons button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  #breweryList {
+    grid-template-columns: 1fr;
+  }
+}
